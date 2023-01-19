@@ -27,3 +27,7 @@ const loadFuctionalities = () => {
     // set active page
     setPage();
 }
+
+const contact = () => {
+    alert("Contacting...")
+}
