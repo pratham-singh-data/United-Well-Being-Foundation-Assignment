@@ -59,12 +59,12 @@ const changeCard = (move) => {
 
     // filled stars
     for(let i = 0; i < data[currentCard].stars; i++){
-        stars += "f";
+        stars += `<i class="fa-solid fa-star"></i>`;
     }
 
     // unfilled
     for(let i = data[currentCard].stars; i < 5; i++){
-        stars += "u";
+        stars += `<i class="fa-regular fa-star"></i>`;
     }
 
     // add to DOM

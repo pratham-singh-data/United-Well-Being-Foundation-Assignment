@@ -61,6 +61,14 @@ nav ul li a{
     color: #000000;
 }
 
+.checkbtn i{
+    font-size: 20px;
+}
+
+i{
+    font-size: 20px;
+}
+
 .checkbtn:hover{
     color: #6D2E46;
 }

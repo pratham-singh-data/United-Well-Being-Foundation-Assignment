@@ -7,6 +7,7 @@
     <title>Psychologist Portfolio | Home</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="home.css"/>
+    <script src="https://kit.fontawesome.com/d2601bda86.js" crossorigin="anonymous"></script>
 </head>
 <body onLoad="loadFuctionalities(); changeCard(0);">
     <nav>
@@ -17,7 +18,7 @@
 
         <input type="checkbox" id="check"/>
         <label for="check" class="checkbtn" onClick="adjustNavbar()">
-            Menu
+            <i class="fa-solid fa-bars"></i>
         </label>
 
         <ul id="navlist">
@@ -73,8 +74,8 @@
             <div id="reviews-card"></div>
 
             <div class="reviews-move-holder">
-                <button class="reviews-move" onclick="changeCard(-1)" >left</button>
-                <button class="reviews-move" onclick="changeCard(1)" >right</button>
+                <button class="reviews-move" onclick="changeCard(-1)" ><i class="fa-solid fa-angle-left"></i></button>
+                <button class="reviews-move" onclick="changeCard(1)" ><i class="fa-solid fa-angle-right"></i></button>
             </div>
         </div>
 
@@ -127,17 +128,17 @@
 
             <table cellspacing="20px">
                 <tr>
-                    <td><i>lo</i></td>
+                    <td><i class="fa-solid fa-location-pin"></i></td>
                     <td>Anchal Tower, Sixmile, Guwahati, Assam 781022, India</td>
                 </tr>
 
                 <tr>
-                    <td><i>ph</i></td>
+                    <td><i class="fa-solid fa-phone"></i></td>
                     <td>+918333552221</td>
                 </tr>
 
                 <tr>
-                    <td><i>ml</i></td>
+                    <td><i class="fa-regular fa-envelope"></i></td>
                     <td>sayestagoswami.pt@gmail.com</td>
                 </tr>
             </table>
