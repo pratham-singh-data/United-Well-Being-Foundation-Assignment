@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psychologist Portfolio | Home</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="home.css"/>
 </head>
-<body onLoad="loadFuctionalities()">
+<body onLoad="loadFuctionalities(); changeCard(0);">
     <nav>
         <label class="logo">
             <h4>Satyesta Goswami, PhD</h4>
@@ -34,6 +35,90 @@
         </ul>
     </nav>
 
+    <main>
+        <div class="hero">
+            <div class="hero-text">
+                <div>
+                    <h2>Growth, healing and hope</h2>
+                    <p>From the comfort of your own space</p>
+                    <p>Individual therapy for adults</p>
+                </div>
+
+                <button>Book Session</button>
+            </div>
+
+            <img class="hero-image" src="./assets/computer-stock.png" alt="computer"/>
+        </div>
+
+        <div class="banner-text">
+            <h2>“The first step is always the most difficult part of a journey.”</h2>
+
+            <p id="banner-info">Begining therapy, like starting most things in life can be scary</p>
+
+            <p>
+                I'm committed to assisting you in discovering your best self by offering a therapeutic setting that is safe, encouraging, and empathetic of your cultural background.
+            </p>
+            <br/>
+
+            <p>
+                Through therapy, I can support you in addressing both recent and enduring issues, fostering healthier relationships, managing work-life balance, reducing anxiety and depressive symptoms, and improving your resilience and capacity for change.
+            </p>
+        </div>
+
+        <hr style="color: #6D2E46"/>
+
+        <div id="reviews-segment">
+            <h4>Customer Reviews</h4>
+
+            <div id="reviews-card"></div>
+
+            <div class="reviews-move-holder">
+                <button class="reviews-move" onclick="changeCard(-1)" >left</button>
+                <button class="reviews-move" onclick="changeCard(1)" >right</button>
+            </div>
+        </div>
+
+        <div id="steps-segment">
+            <h4>
+                Start Online Psychologist Consultation With Three Easy Steps
+            </h4>
+
+            <div class="package-scroller">
+                <div class="package-card">
+                    <img src="./assets/1.png" alt="1">
+                    <p class="package-card-header">Choose A Package</p>
+
+                    <p class="package-card-text">
+                        Choose between two types of packages, Depending upon on your requirement and need.
+                    </p>
+                </div>
+
+                <div class="package-card">
+                    <img src="./assets/2.png" alt="2">
+                    <p class="package-card-header">Connect With Your Therapist</p>
+
+                    <p class="package-card-text">
+                        Fill out our form and complete the payment process I Will shortly be in touch with you 
+                    </p>
+                </div>
+
+                <div class="package-card">
+                    <img src="./assets/3.png" alt="3">
+                    <p class="package-card-header">Begin Your Healing Journey</p>
+
+                    <p class="package-card-text">
+                        Start your session with Me, a step towards healing.
+                    </p>
+                </div>
+            </div>
+
+            <button id="book-session-button">
+                Book Session
+            </button>
+        </div>
+    </main>
+
     <script src="./index.js"></script>
+    <script src="./home.js"></script> 
 </body>
 </html>
