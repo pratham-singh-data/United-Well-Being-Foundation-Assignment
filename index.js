@@ -13,10 +13,16 @@ const adjustNavbar = () => {
 
 const setPage = () => {
   const location = window.location.href;
-  const currentLocation = location.slice(
+  let currentLocation = location.slice(
     location.lastIndexOf("/") + 1,
     location.length
   );
+
+  if(currentLocation){
+    // remove .html part
+    currentLocation = currentLocation.slice(0, currentLocation.lastIndexOf("."));
+  }
+
   const currentItem = document.getElementById(
     currentLocation ? currentLocation : "home"
   );
