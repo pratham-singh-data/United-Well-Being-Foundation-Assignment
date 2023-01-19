@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psychologist Portfolio | Contact Us</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="contactus.css"/>
 </head>
 <body onLoad="loadFuctionalities()">
     <nav>
@@ -33,6 +34,56 @@
             </li>
         </ul>
     </nav>
+
+    <main class="cu-main">        
+        <div class="cu-details">
+            <h4>Contact Us</h4>
+
+            <table cellspacing="20px">
+                <tr>
+                    <td><i>lo</i></td>
+                    <td>Anchal Tower, Sixmile, Guwahati, Assam 781022, India</td>
+                </tr>
+
+                <tr>
+                    <td><i>ph</i></td>
+                    <td>+918333552221</td>
+                </tr>
+
+                <tr>
+                    <td><i>ml</i></td>
+                    <td>sayestagoswami.pt@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="cu-form">
+            <form>
+                <label for="name">Name *</label>
+                <div id="name">
+                    <input type="text" class="text-field-cu text-field-name-cu" required />
+                    <input type="text" class="text-field-cu text-field-name-cu" required />
+                </div>
+                <br/>
+                <br/>
+
+                <label for="name">Email *</label><br/>
+                <input id="email" type="email"  class="text-field-cu" required />
+                <br/>
+                <br/>
+                <br/>
+
+                <label for="message">Message *</label><br/>
+                <textarea rows="5" id="message" class="text-field-cu" required ></textarea>
+                <br/>
+                <br/>
+
+                <button class="cu-submit-button" type="submit">
+                    Send
+                </button>
+            </form>
+        </div>
+    </main>
 
     <script src="./index.js"></script>
 </body>
