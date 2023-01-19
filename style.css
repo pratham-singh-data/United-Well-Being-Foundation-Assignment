@@ -73,6 +73,57 @@ nav ul li a{
     display: none;
 }
 
+footer{
+    padding: 50px 30px;
+    background-color: #E7E6E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #6D2E46;
+}
+
+.footer-logo{
+    margin-bottom: 40px;
+}
+
+.footer-logo h4{
+    font-size: 40px;
+}
+
+.footer-logo p{
+    font-size: 20px;
+}
+
+#footer-contact{
+    width: 30%;
+}
+
+.footer-links-container label{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 16px;
+}
+
+.footer-links-container ul{
+    list-style: none;
+}
+
+.footer-links-container li{
+    margin-top: 20px;
+}
+
+.footer-bottom{
+    background-color: #E7E6E4;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-links-container{
+    margin-top: 20px;
+}
+
 @media screen and (min-width: 800px){
     .checkbtn{
         display: none;
@@ -83,5 +134,13 @@ nav ul li a{
         width: fit-content;
         flex-direction: row;
         float: right;
+    }
+
+    footer{
+        flex-direction: row;
+    }
+
+    .footer-links-container{
+        margin-top: 0px;
     }
 }
