@@ -1,118 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Psychologist Portfolio | About Us</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link rel="stylesheet" type="text/css" href="aboutus.css"/>
-    <script src="https://kit.fontawesome.com/d2601bda86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="aboutus.css" />
+    <script
+      src="https://kit.fontawesome.com/d2601bda86.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-</head>
-<body onLoad="loadFuctionalities()">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onLoad="loadFuctionalities()">
     <nav>
-        <label class="logo">
-            <h4>Satyesta Goswami, PhD</h4>
-            <p>Clinical Psychologist</p>
-        </label>
+      <label class="logo">
+        <h4>Satyesta Goswami, PhD</h4>
+        <p>Clinical Psychologist</p>
+      </label>
 
-        <input type="checkbox" id="check"/>
-        <label for="check" class="checkbtn" onClick="adjustNavbar()">
-            <i class="fa-solid fa-bars"></i>
-        </label>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn" onClick="adjustNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </label>
 
-        <ul id="navlist">
-            <li>
-                <a id="home" href="/">Home</a>
-            </li>
+      <ul id="navlist">
+        <li>
+          <a id="home" href="/">Home</a>
+        </li>
 
-            <li>
-                <a id="aboutus" href="/aboutus">About Us</a>
-            </li>
+        <li>
+          <a id="aboutus" href="/aboutus">About Us</a>
+        </li>
 
-            <li>
-                <a id="contactus" href="/contactus">Contact Us</a>
-            </li>
-        </ul>
+        <li>
+          <a id="contactus" href="/contactus">Contact Us</a>
+        </li>
+      </ul>
     </nav>
 
     <main class="ab-main">
-        <h4>About Me</h4>
-        
-        <div class="ab-main-content">
-            <div class="ab-main-image">
-                <img class="ab-image" src="./assets/psychologist-image.png" alt="Satyesta Goswami" />
+      <h4>About Me</h4>
 
-                <p class="ab-contact" onclick="contact()">
-                    Contact Dr. Goswami
-                </p>
-            </div>
+      <div class="ab-main-content">
+        <div class="ab-main-image">
+          <img
+            class="ab-image"
+            src="./assets/psychologist-image.png"
+            alt="Satyesta Goswami"
+          />
 
-            <div class="ab-text">
-                <p>
-                    Hello, I have completed an undergraduate degree in psychology at Delhi University, subsequently pursued graduate training in counseling psychology at the AIIMS Delhi, and completed a doctorate in clinical psychology at the Adler School of Professional Psychology. I have clinical interests and worked with children, teens, adults, diagnostic assessment and addictions. I use a broad range of cognitive behavioral and insight oriented techniques in the psychotherapy and counseling process.
-                </p>
-
-                <p>
-                    I have also taught a broad variety of graduate psychology and counseling courses at the Delhi University and Jamia Milia Islamia. I have lectured and presented training seminars and workshops nationally and internationally in Europe and East Asia. My research and publication interests have included addictions, psychometrics, clinical training and supervision, and the integration of spiritual values in psychotherapy and supervision.
-                </p>
-            </div>
+          <p class="ab-contact" onclick="contact()">Contact Dr. Goswami</p>
         </div>
+
+        <div class="ab-text">
+          <p>
+            Hello, I have completed an undergraduate degree in psychology at
+            Delhi University, subsequently pursued graduate training in
+            counseling psychology at the AIIMS Delhi, and completed a doctorate
+            in clinical psychology at the Adler School of Professional
+            Psychology. I have clinical interests and worked with children,
+            teens, adults, diagnostic assessment and addictions. I use a broad
+            range of cognitive behavioral and insight oriented techniques in the
+            psychotherapy and counseling process.
+          </p>
+
+          <p>
+            I have also taught a broad variety of graduate psychology and
+            counseling courses at the Delhi University and Jamia Milia Islamia.
+            I have lectured and presented training seminars and workshops
+            nationally and internationally in Europe and East Asia. My research
+            and publication interests have included addictions, psychometrics,
+            clinical training and supervision, and the integration of spiritual
+            values in psychotherapy and supervision.
+          </p>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div class="footer-contact">
-            <label class="logo footer-logo">
-                <h4>Satyesta Goswami, PhD</h4>
-                <p>Clinical Psychologist</p>
-            </label>
+      <div class="footer-contact">
+        <label class="logo footer-logo">
+          <h4>Satyesta Goswami, PhD</h4>
+          <p>Clinical Psychologist</p>
+        </label>
 
-            <table cellspacing="20px">
-                <tr>
-                    <td><i class="fa-solid fa-location-pin"></i></td>
-                    <td>Anchal Tower, Sixmile, Guwahati, Assam 781022, India</td>
-                </tr>
+        <table cellspacing="20px">
+          <tr>
+            <td><i class="fa-solid fa-location-pin"></i></td>
+            <td>Anchal Tower, Sixmile, Guwahati, Assam 781022, India</td>
+          </tr>
 
-                <tr>
-                    <td><i class="fa-solid fa-phone"></i></td>
-                    <td>+918333552221</td>
-                </tr>
+          <tr>
+            <td><i class="fa-solid fa-phone"></i></td>
+            <td>+918333552221</td>
+          </tr>
 
-                <tr>
-                    <td><i class="fa-regular fa-envelope"></i></td>
-                    <td>sayestagoswami.pt@gmail.com</td>
-                </tr>
-            </table>
-        </div>
+          <tr>
+            <td><i class="fa-regular fa-envelope"></i></td>
+            <td>sayestagoswami.pt@gmail.com</td>
+          </tr>
+        </table>
+      </div>
 
-        <div class="footer-links-container">
-            <label for="footer-links-list">Quick Links</label>
+      <div class="footer-links-container">
+        <label for="footer-links-list">Quick Links</label>
 
-            <ul id="footer-links-list">
-                <li>Book Session</li>
-                <li>About Me</li>
-                <li>Contact Us</li>
-            </ul>
-        </div>
+        <ul id="footer-links-list">
+          <li>Book Session</li>
+          <li>About Me</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
 
-        <div class="footer-links-container">
-            <label for="footer-links-list">Legal Stuff</label>
+      <div class="footer-links-container">
+        <label for="footer-links-list">Legal Stuff</label>
 
-            <ul id="footer-links-list">
-                <li>Disclaimer</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Services</li>
-            </ul>
-        </div>
+        <ul id="footer-links-list">
+          <li>Disclaimer</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Services</li>
+        </ul>
+      </div>
     </footer>
-    <div class="footer-bottom">
-        All rights reserved
-    </div>
+    <div class="footer-bottom">All rights reserved</div>
 
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>

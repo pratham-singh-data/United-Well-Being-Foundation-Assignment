@@ -1,144 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Psychologist Portfolio | Contact Us</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link rel="stylesheet" type="text/css" href="contactus.css"/>
-    <script src="https://kit.fontawesome.com/d2601bda86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="contactus.css" />
+    <script
+      src="https://kit.fontawesome.com/d2601bda86.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-</head>
-<body onLoad="loadFuctionalities()">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onLoad="loadFuctionalities()">
     <nav>
-        <label class="logo">
-            <h4>Satyesta Goswami, PhD</h4>
-            <p>Clinical Psychologist</p>
-        </label>
+      <label class="logo">
+        <h4>Satyesta Goswami, PhD</h4>
+        <p>Clinical Psychologist</p>
+      </label>
 
-        <input type="checkbox" id="check"/>
-        <label for="check" class="checkbtn" onClick="adjustNavbar()">
-            <i class="fa-solid fa-bars"></i>
-        </label>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn" onClick="adjustNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </label>
 
-        <ul id="navlist">
-            <li>
-                <a id="home" href="/">Home</a>
-            </li>
+      <ul id="navlist">
+        <li>
+          <a id="home" href="/">Home</a>
+        </li>
 
-            <li>
-                <a id="aboutus" href="/aboutus">About Us</a>
-            </li>
+        <li>
+          <a id="aboutus" href="/aboutus">About Us</a>
+        </li>
 
-            <li>
-                <a id="contactus" href="/contactus">Contact Us</a>
-            </li>
-        </ul>
+        <li>
+          <a id="contactus" href="/contactus">Contact Us</a>
+        </li>
+      </ul>
     </nav>
 
-    <main class="cu-main">        
-        <div class="cu-details">
-            <h4>Contact Us</h4>
+    <main class="cu-main">
+      <div class="cu-details">
+        <h4>Contact Us</h4>
 
-            <table cellspacing="20px">
-                <tr>
-                    <td><i class="fa-solid fa-location-pin"></i></td>
-                    <td>Anchal Tower, Sixmile, Guwahati, Assam 781022, India</td>
-                </tr>
+        <table cellspacing="20px">
+          <tr>
+            <td><i class="fa-solid fa-location-pin"></i></td>
+            <td>Anchal Tower, Sixmile, Guwahati, Assam 781022, India</td>
+          </tr>
 
-                <tr>
-                    <td><i class="fa-solid fa-phone"></i></td>
-                    <td>+918333552221</td>
-                </tr>
+          <tr>
+            <td><i class="fa-solid fa-phone"></i></td>
+            <td>+918333552221</td>
+          </tr>
 
-                <tr>
-                    <td><i class="fa-regular fa-envelope"></i></td>
-                    <td>sayestagoswami.pt@gmail.com</td>
-                </tr>
-            </table>
-        </div>
+          <tr>
+            <td><i class="fa-regular fa-envelope"></i></td>
+            <td>sayestagoswami.pt@gmail.com</td>
+          </tr>
+        </table>
+      </div>
 
-        <div class="cu-form">
-            <form>
-                <label for="name">Name *</label>
-                <div id="name">
-                    <input type="text" class="text-field-cu text-field-name-cu" required />
-                    <input type="text" class="text-field-cu text-field-name-cu" required />
-                </div>
-                <br/>
-                <br/>
+      <div class="cu-form">
+        <form>
+          <label for="name">Name *</label>
+          <div id="name">
+            <input
+              type="text"
+              class="text-field-cu text-field-name-cu"
+              required
+            />
+            <input
+              type="text"
+              class="text-field-cu text-field-name-cu"
+              required
+            />
+          </div>
+          <br />
+          <br />
 
-                <label for="name">Email *</label><br/>
-                <input id="email" type="email"  class="text-field-cu" required />
-                <br/>
-                <br/>
-                <br/>
+          <label for="name">Email *</label><br />
+          <input id="email" type="email" class="text-field-cu" required />
+          <br />
+          <br />
+          <br />
 
-                <label for="message">Message *</label><br/>
-                <textarea rows="5" id="message" class="text-field-cu" required ></textarea>
-                <br/>
-                <br/>
+          <label for="message">Message *</label><br />
+          <textarea
+            rows="5"
+            id="message"
+            class="text-field-cu"
+            required
+          ></textarea>
+          <br />
+          <br />
 
-                <button class="cu-submit-button" type="submit">
-                    Send
-                </button>
-            </form>
-        </div>
+          <button class="cu-submit-button" type="submit">Send</button>
+        </form>
+      </div>
     </main>
 
     <footer>
-        <div class="footer-contact">
-            <label class="logo footer-logo">
-                <h4>Satyesta Goswami, PhD</h4>
-                <p>Clinical Psychologist</p>
-            </label>
+      <div class="footer-contact">
+        <label class="logo footer-logo">
+          <h4>Satyesta Goswami, PhD</h4>
+          <p>Clinical Psychologist</p>
+        </label>
 
-            <table cellspacing="20px">
-                <tr>
-                    <td><i class="fa-solid fa-location-pin"></i></td>
-                    <td>Anchal Tower, Sixmile, Guwahati, Assam 781022, India</td>
-                </tr>
+        <table cellspacing="20px">
+          <tr>
+            <td><i class="fa-solid fa-location-pin"></i></td>
+            <td>Anchal Tower, Sixmile, Guwahati, Assam 781022, India</td>
+          </tr>
 
-                <tr>
-                    <td><i class="fa-solid fa-phone"></i></td>
-                    <td>+918333552221</td>
-                </tr>
+          <tr>
+            <td><i class="fa-solid fa-phone"></i></td>
+            <td>+918333552221</td>
+          </tr>
 
-                <tr>
-                    <td><i class="fa-regular fa-envelope"></i></td>
-                    <td>sayestagoswami.pt@gmail.com</td>
-                </tr>
-            </table>
-        </div>
+          <tr>
+            <td><i class="fa-regular fa-envelope"></i></td>
+            <td>sayestagoswami.pt@gmail.com</td>
+          </tr>
+        </table>
+      </div>
 
-        <div class="footer-links-container">
-            <label for="footer-links-list">Quick Links</label>
+      <div class="footer-links-container">
+        <label for="footer-links-list">Quick Links</label>
 
-            <ul id="footer-links-list">
-                <li>Book Session</li>
-                <li>About Me</li>
-                <li>Contact Us</li>
-            </ul>
-        </div>
+        <ul id="footer-links-list">
+          <li>Book Session</li>
+          <li>About Me</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
 
-        <div class="footer-links-container">
-            <label for="footer-links-list">Legal Stuff</label>
+      <div class="footer-links-container">
+        <label for="footer-links-list">Legal Stuff</label>
 
-            <ul id="footer-links-list">
-                <li>Disclaimer</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Services</li>
-            </ul>
-        </div>
+        <ul id="footer-links-list">
+          <li>Disclaimer</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Services</li>
+        </ul>
+      </div>
     </footer>
-    <div class="footer-bottom">
-        All rights reserved
-    </div>
+    <div class="footer-bottom">All rights reserved</div>
 
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>

@@ -1,81 +1,79 @@
-.cu-main{
-    background-color: #CEBEBE;
+.cu-main {
+  background-color: #cebebe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 70vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cu-details {
+  padding: 50px;
+}
+
+.cu-details h4 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #6d2e46;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+
+.cu-details td {
+  color: #6d2e46;
+}
+
+.cu-form {
+  width: 70vw;
+}
+
+.text-field-cu {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px;
+}
+
+.text-field-name-cu {
+  width: 40%;
+}
+
+.cu-submit-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 50%;
+  background-color: #6d2e46;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .cu-main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 70vh;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+    flex-direction: row;
+    width: 100vw;
+    align-items: baseline;
+  }
 
-.cu-details{
-    padding: 50px;
-}
-
-.cu-details h4{
-    font-size: 30px;
-    font-weight: 400;
-    color: #6D2E46;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    padding-left: 20px;
-}
-
-.cu-details td{
-    color: #6D2E46;
-}
-
-
-.cu-form{
-    width: 70vw;
-}
-
-.text-field-cu{
-    background-color: #FFFFFF;
-    width: 100%;
-    padding: 10px;
-}
-
-.text-field-name-cu{
-    width: 40%;
-}
-
-.cu-submit-button{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+  .cu-details {
     width: 50%;
-    background-color: #6D2E46;
-    color: #FFFFFF;
-    cursor: pointer;
-}
+    padding: 20px;
+  }
 
-@media screen and (min-width: 800px){
-    .cu-main{
-        display: flex;
-        flex-direction: row;
-        width: 100vw;
-        align-items: baseline;
-    }
+  .cu-form {
+    width: 50%;
+  }
 
-    .cu-details{
-        width: 50%;
-        padding: 20px;
-    }
+  .text-field-cu {
+    background-color: #ffffff;
+    width: 80%;
+    padding: 10px;
+  }
 
-    .cu-form{
-        width: 50%;
-    }
-
-    .text-field-cu{
-        background-color: #FFFFFF;
-        width: 80%;
-        padding: 10px;
-    }
-
-
-    .text-field-name-cu{
-        width: 35%;
-    }
+  .text-field-name-cu {
+    width: 35%;
+  }
 }
